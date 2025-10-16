@@ -1,12 +1,12 @@
 # Embedding pipeline
 
 # Architecture
-embedding-pipeline/
-├── main.py                   # Pipeline 
-├── read_input.py             # Text parsing 
-├── save_output.py            # Saving embeddings
-├── model_cache/              # Local model storage (auto-created)
-├── requirements.txt          # Project dependencies
+embedding-pipeline/<br>
+├── main.py                   # Pipeline<br>
+├── read_input.py             # Text parsing<br> 
+├── save_output.py            # Saving embeddings<br>
+├── model_cache/              # Local model storage (auto-created)<br>
+├── requirements.txt          # Project dependencies<br>
 └── README.md                 # Project documentation
 
 # Guide
