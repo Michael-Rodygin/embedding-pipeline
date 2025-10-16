@@ -12,15 +12,25 @@ embedding-pipeline/<br>
 # Guide
 
 # Clone the repository
-git clone https://github.com/Michael-Rodygin/embedding-pipeline.git <br>
+```bash
+git clone https://github.com/Michael-Rodygin/embedding-pipeline.git
+```
+```bash
 cd embedding-pipeline
+```
 
 # Create venv (or whatever environment you want to use)<br>
-python -m venv venv_name<br>
+```bash
+python -m venv venv_name
+```
+```bash
 .\venv\Scripts\activate
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # (Optional) Change PipelineConfig
 Locate PipelineConfig class in main.py:<br>
@@ -29,11 +39,13 @@ Change:<br>
 - model cache location (default='./model_cache')<br>
 - processing_batch_size <br>
 
-# Run the pipeline
-python main.py
-
 # Prepare input data 
-Create a input.txt with input texts 
+Create an input.txt with input texts
 
-# Launch main.py
-embeddings will be stored in output_embeddings.txt 
+# Run the pipeline
+```bash
+python main.py
+```
+
+# Result
+Embeddings will be stored in output_embeddings.txt file
