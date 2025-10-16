@@ -13,7 +13,6 @@ def parse_input(file_path, separator="$$$"):
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
 
-        # Split content using the separator and remove empty strings
         chunks = [chunk.strip() for chunk in content.split(separator) if chunk.strip()]
 
         print(f"Parsed {len(chunks)} text chunks from {file_path}")
@@ -41,11 +40,3 @@ def parse_input_string(input_string, separator="$$$"):
     chunks = [chunk.strip() for chunk in input_string.split(separator) if chunk.strip()]
     print(f"Parsed {len(chunks)} text chunks from input string")
     return chunks
-
-
-# Example usage
-if __name__ == "__main__":
-    # Test with a file
-    chunks = parse_input("input.txt")
-    for i, chunk in enumerate(chunks):
-        print(f"Chunk {i + 1}: {chunk[:50]}...")
