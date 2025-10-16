@@ -22,6 +22,13 @@ python -m venv venv_name<br>
 # Install dependencies
 pip install -r requirements.txt
 
+# (Optional) Change PipelineConfig
+Locate PipelineConfig class in main.py:<br>
+Change:<br>
+- model (default='ai-forever/FRIDA')<br>
+- model cache location (default='./model_cache')<br>
+- processing_batch_size <br>
+
 # Run the pipeline
 python main.py
 
