@@ -2,17 +2,17 @@
 
 # Architecture
 embedding-pipeline/<br>
-├── main.py                   # Pipeline<br>
-├── read_input.py             # Text parsing<br> 
-├── save_output.py            # Saving embeddings<br>
-├── model_cache/              # Local model storage (auto-created)<br>
-├── requirements.txt          # Project dependencies<br>
-└── README.md                 # Project documentation
+├── main.py                     <br>
+├── read_input.py               <br> 
+├── save_output.py              <br>
+├── model_cache/                <br>
+├── requirements.txt            <br>
+└── README.md                 
 
 # Guide
 
 # Clone the repository
-git clone https://github.com/Michael-Rodygin/embedding-pipeline.git
+git clone https://github.com/Michael-Rodygin/embedding-pipeline.git <br>
 cd embedding-pipeline
 
 # Install dependencies
