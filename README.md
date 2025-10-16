@@ -15,6 +15,10 @@ embedding-pipeline/<br>
 git clone https://github.com/Michael-Rodygin/embedding-pipeline.git <br>
 cd embedding-pipeline
 
+# Create venv (or whatever environment you want to use)
+python -m venv venv_name
+.\venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
 
