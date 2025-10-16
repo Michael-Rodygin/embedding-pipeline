@@ -24,7 +24,7 @@ cd embedding-pipeline
 python -m venv venv_name
 ```
 ```bash
-venv_name\Scripts\activate
+.\venv_name\Scripts\activate
 ```
 
 # Install dependencies
